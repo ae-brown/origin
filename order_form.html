@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Tony's Sporting Goods</title>
+
+
+</head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+<body>
+
+
+  <header>
+    <h1>Tony's Sporting Goods</h1><br>
+    <h2>Odrer Form</h2>
+  </header>
+
+
+  <div class='main-content'>
+
+    <form id='orders'>
+           
+      <div class='item'>
+        <h2> Basketball Jersey</h2>
+          <div class='info'> 
+            <spam>Price $25.00</span> 
+            <div class='order'>
+              <label for='jersey'> Quantity desired</label>
+              <input type='number' min='0' id='jersey' size='3' placeholder='0'>
+            </div>
+          </div>
+      </div>
+        
+
+      <div class='item'>
+        <h2> Basketball pants</h2>
+          <div class='info'> 
+            <spam>Price $35.00</span> 
+            <div class='order'>
+              <label for='pants'> Quantity desired</label>
+              <input type='number' min='0' id='pants' size='3' placeholder='0'>
+            </div>
+          </div>
+      </div>
+
+
+      <div class='item'>
+        <h2> Basketball Sneakers</h2>
+          <div class='info'> 
+            <spam>Price $75.00</span> 
+            <div class='order'>
+              <label for='sneaker'> Quantity desired</label>
+              <input type='number' min='0' id='sneaker' size='3' placeholder='0'>
+            </div>
+          </div>
+      </div><hr>
+
+      <div class="group_calc">
+        <p>
+          <label for="btn-estimate">Click to estimate:</label><br>
+          <input type="submit" value="Estimate Total" id="btn-estimate">
+          <input type="text" id="txt-estimate" placeholder="$0.00">
+        </p>
+      </div>
+
+    </form>
+
+
+      <div id="results">
+        <!-- javascript insert -->
+      </div>  
+    
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
